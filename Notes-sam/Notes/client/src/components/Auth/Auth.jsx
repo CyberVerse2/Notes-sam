@@ -26,7 +26,7 @@ export default function Auth({ setLoginName }) {
     }
 
     const response = await fetch(
-      `${import.meta.env.VITE_APP_SERVERURL}/${endpoint}`,
+      `${'https://notes-api-6zhm.onrender.com'}/${endpoint}`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
